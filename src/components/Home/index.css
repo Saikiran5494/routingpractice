@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.home {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    width: 200px;
+  }
+}

@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.header-contents {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .header-contents {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  .content {
+    font-size: 25px;
+    font-weight: 700;
+    color: #555555;
+  }
+}

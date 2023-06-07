@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    width: 200px;
+  }
+}
